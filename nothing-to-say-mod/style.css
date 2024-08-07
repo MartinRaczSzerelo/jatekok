@@ -22,6 +22,7 @@
 body {
 	background: #888;
 	margin: 0;
+	font-family: bahnschrift
 }
 
 .base {
@@ -52,7 +53,6 @@ body {
 #titlepage {
 	text-align: center;
 	color: white;
-	font-family: 'Noto Sans', sans-serif;
 }
 
 #title {
@@ -62,7 +62,6 @@ body {
 	text-transform: uppercase;
 	color: #777;
 	font-size: 75px;
-	font-family: bahnschrift
 }
 
 #subtitle {
@@ -70,7 +69,6 @@ body {
     bottom: 90px;
     width: 100%;
     font-size: 20px;
-    font-family: bahnschrift
 }
 
 #subtitle span.nothing {
@@ -82,13 +80,11 @@ body {
 	width: 100%;
 	font-size: 14px;
 	color: #cdd6ee;
-	font-family: bahnschrift
 }
 
 #credits {
 	bottom: 50px;
 	color: #888;
-	font-family: bahnschrift
 }
 
 #start {
@@ -96,7 +92,6 @@ body {
 	color: #aaa;
 	opacity: 0; /* appear after a delay */
 	transition: opacity 1s;
-	font-family: bahnschrift
 }
 
 #win {
